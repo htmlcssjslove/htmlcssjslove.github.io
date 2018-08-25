@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            width: 70%;
+            margin: auto;
+            }
+        .main{
+            width: 50%;
+            float: left;
+            border: solid red;
+            text-align: center;
+            border-collapse: collapse;
+            }
+        .table2{
+            width: 50%;
+            border-collapse: collapse;
+            border: solid pink;
+            text-align: center;
+            float: right;
+        }
+        table th {
+            text-align: center;
+            background-color: #222;
+            color: lime;
+        }
+        li{
+            text-align: left;
+        }
+        header{
+            text-align: center;
+            background-color: pink;
+        }
+     </style>
+</head>
+<!--Possible Lesson Plan CSS Styling Using Internal and External Style Sheets. -Parker 8/25-->
+<body>
+ <header class="w-3 containter">
+     <h1>Lesson 1: Adding CSS Style</h1> 
+ </header>
+  <div class="wrapper">
+      <table class="main">
+          <th>You Can Style CSS Like This</th>
+        <tr>
+             <td>
+<!--             UL will be updated with more helpful points in the future-->
+             <ul>
+                 <li>You Can Link Directly To A Sepearate Style Sheet</li>
+                 <li>Using link rel="stylesheet" href="main.css"></li>
+                 <li>Making Sure This Style Sheet folder is attached to your HTML Document</li>
+             </ul>
+             <img src="https://www.homeandlearn.co.uk/WD/images/chapter4/external_styles_about_code.gif" title="External Linking Style Using CSS" width="100%">
+             </tr>
+        </table>
+   <table class="table2">
+   <th>Internal Style CSS</th>
+   <tr>
+       <td>
+          <!--             UL will be updated with more helpful points in the future-->
+                 <ul>
+               <li>Add Style Tags Directly Inside Your Tag Attributes</li>
+               <li>Be Sure To Give Your Im</li>
+               <li>Important</li>
+           </ul>
+           <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/UploadFile/e6a884/types-of-css/Images/internalcss%20code.jpg" title="Internal Styling Using CSS" width="100%">
+       </td>
+   </tr>
+   </table>
+  </div> 
+</body>
+</html>
