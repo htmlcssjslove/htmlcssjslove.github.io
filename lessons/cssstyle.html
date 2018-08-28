@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+              <!-- BOOTSTRAP STYLESHEET-->
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
@@ -8,97 +12,74 @@
             width: 70%;
             margin: auto;
             }
-        .main{
-            width: 50%;
-            float: left;
-            border: solid red;
-            text-align: center;
-            border-collapse: collapse;
-            }
-        .table2{
+        .table{
             width: 50%;
             border-collapse: collapse;
             border: solid pink;
             text-align: center;
             float: right;
         }
-        table th {
+        th {
             text-align: center;
-            background-color: #222;
-            color: lime;
+            color: black;
         }
         li{
             text-align: left;
         }
         header{
             text-align: center;
-            background-color: pink;
+            font-size: 25px;
+            background-color: black;
+            color: limegreen;
+            padding-bottom: 10px;
         }
-     </style>
+        </style>
 </head>
-<!--Possible Lesson Plan CSS Styling Using Internal and External Style Sheets. -Parker 8/25-->
 <body>
- <header class="w-3 containter">
-     <h1>Lesson 1: Adding CSS Style</h1> 
- </header>
-  <div class="wrapper">
-      <table class="main">
-          <th>You Can Style CSS Like This</th>
-        <tr>
-             <td>
-<!--             UL will be updated with more helpful points in the future-->
-             <ul>
-                 <li>You Can Link Directly To A Sepearate Style Sheet</li>
-                 <li>Using link rel="stylesheet" href="main.css"></li>
-                 <li>Making Sure This Style Sheet folder is attached to your HTML Document</li>
-             </ul>
-             <img src="https://www.homeandlearn.co.uk/WD/images/chapter4/external_styles_about_code.gif" title="External Linking Style Using CSS" width="100%">
-             </tr>
-        </table>
-   <table class="table2">
-   <th>Internal Style CSS</th>
-   <tr>
-       <td>
-          <!--             UL will be updated with more helpful points in the future-->
-                 <ul>
+<header>
+    <h2>Lesson 1: Adding CSS Style To HTML</h2>
+</header>
+<br>
+<br>
+
+<!--//RETOUCHED BY PARK 8/27 CODE WILL BE CLEANED UP IN A FEW DAY// -->
+<table class="table">
+    <thead class="thead-dark">
+        <th scope="col">Internal CSS STYLE</th>
+        </thead>
+     <tbody>
+           <td><ul>
+              <p>Style Directly Inside HTML Code</p>
                <li>Add Style Tags Directly Inside Your Tag Attributes</li>
                <li>Be Sure To Give Your Im</li>
+               <li>lorem</li>
                <li>Important</li>
            </ul>
-           <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/UploadFile/e6a884/types-of-css/Images/internalcss%20code.jpg" title="Internal Styling Using CSS" width="100%">
-       </td>
-   </tr>
-   </table>
-      <table class="link">
-          <tr>
-            <td>
-              <a class="color-fb" href="https://www.facebook.com/groups/319148675309380/">
-                <i class="fa fa-facebook-official"></i>
-              </a>
-            </td>
-            <td>
-              <a class="color-fb" href="https://www.facebook.com/groups/319148675309380/">
-                &nbsp;Study Group
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a class="color-github" href="https://github.com/htmlcssjslove/htmlcssjslove.github.io">
-                <i class="fa fa-github"></i>
-              </a>
-            </td>
-            <td>
-              <a class="color-github" href="https://github.com/htmlcssjslove/htmlcssjslove.github.io">
-                &nbsp;Source Code
-              </a>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </td>
-  </tr>
-</table>
-  </div> 
+           <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/UploadFile/e6a884/types-of-css/Images/internalcss%20code.jpg" title="Internal Styling Using CSS" width="100%" height="325px">
+            </tbody>
+            </table>
+            
+            <!-- TABLE TWO  -->
+             <table class="table">
+    <thead class="thead-light">
+        <th scope="col">External CSS STYLE</th>
+        </thead>
+    <tbody>
+           <td><ul>        
+               <p>Link To .CSS File</p>
+               <li>Create a file inside your root folder called <b>main.css</b></li>
+               <li>Link main.css to your HTML Document inside the HTML File between the opening and closing head tag</li>
+               <li>Link: [link rel="stylesheet" href="main.css"]</li>
+               <li>Now the selectors you choose on your .css file will change the style on your HTML page</li>
+           </ul>
+           <img src="https://i.ytimg.com/vi/y4gWr2fya0I/maxresdefault.jpg" title="LINKING CSS TO HTML" width="100%">
+            </tbody>
+            </table>
+            
+            <!-- BOOTSTRAP SCRIPT-->
+            
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
 </body>
+
 </html>
