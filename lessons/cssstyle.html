@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
               <!-- BOOTSTRAP STYLESHEET-->
-
+<link href="https://fonts.googleapis.com/css?family=Hind|Roboto" rel="stylesheet">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
@@ -13,11 +13,14 @@
             margin: auto;
             }
         .table{
-            width: 50%;
             border-collapse: collapse;
-            border: solid pink;
+            width: 50%;
+            height: 527px;
+            border: solid blue 2px;
+            border-radius: 100%;
             text-align: center;
             float: right;
+            
         }
         th {
             text-align: center;
@@ -25,35 +28,45 @@
         }
         li{
             text-align: left;
+            font-family: 'Roboto', sans-serif;
         }
         header{
             text-align: center;
             font-size: 25px;
             background-color: black;
             color: limegreen;
+            padding-top: 10px;
             padding-bottom: 10px;
+        }
+        h3{
+            font-size: 20px;
+            font-family: 'Hind', sans-serif;
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px
         }
         </style>
 </head>
 <body>
 <header>
-    <h2>Lesson 1: Adding CSS Style To HTML</h2>
+    <h2 id="headtext">Lesson 1: Adding CSS Style To HTML</h2>
 </header>
 <br>
 <br>
 
-<!--//RETOUCHED BY PARK 8/27 CODE WILL BE CLEANED UP IN A FEW DAY// -->
-<table class="table">
+<!--//RETOUCHED BY PARK 8/27 CODE WILL BE CLEANED UP IN A FEW DAYS// -->
+   <div class="wrapper">
+   <table class="table">
     <thead class="thead-dark">
         <th scope="col">Internal CSS STYLE</th>
         </thead>
      <tbody>
            <td><ul>
-              <p>Style Directly Inside HTML Code</p>
-               <li>Add Style Tags Directly Inside Your Tag Attributes</li>
-               <li>Be Sure To Give Your Im</li>
-               <li>lorem</li>
-               <li>Important</li>
+               <h3>Style Directly Inside HTML Code</h3>
+               <li>Add Style Tags Directly Inside Your Tag By Opening a Tag and Adding the 'STYLE' Attribute</li>
+               <li>Type out your style and close the HTML tag</li>
+               <li>Example: [pTag style = "color: #222; text-align: center;">/p </li><br>
            </ul>
            <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/UploadFile/e6a884/types-of-css/Images/internalcss%20code.jpg" title="Internal Styling Using CSS" width="100%" height="325px">
             </tbody>
@@ -66,7 +79,7 @@
         </thead>
     <tbody>
            <td><ul>        
-               <p>Link To .CSS File</p>
+               <h3>Link To .CSS File</h3>
                <li>Create a file inside your root folder called <b>main.css</b></li>
                <li>Link main.css to your HTML Document inside the HTML File between the opening and closing head tag</li>
                <li>Link: [link rel="stylesheet" href="main.css"]</li>
@@ -75,7 +88,8 @@
            <img src="https://i.ytimg.com/vi/y4gWr2fya0I/maxresdefault.jpg" title="LINKING CSS TO HTML" width="100%">
             </tbody>
             </table>
-            
+            <p><b>Linking CSS Either Internal or External takes time to learn!</b><br> When done properly and concise your HTML webpage will have a beautiful new look... A look that will 'WOW' you and those landing on your site...<br> <b>Remember:</b>Practice Always, Keep Learning and Please, if You Have Any Questions Ask US! <a href="https://www.facebook.com/groups/319148675309380/" target="_blank">Inside The Group</a></p>
+            </div>
             <!-- BOOTSTRAP SCRIPT-->
             
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
